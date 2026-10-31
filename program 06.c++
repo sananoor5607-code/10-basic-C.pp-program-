@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    float totalBill, friends, perPerson;
+    cout << "Enter total bill: ";
+    cin >> totalBill;
+    cout << "Enter number of friends: ";
+    cin >> friends;
+    perPerson = totalBill / friends;
+    cout << "Each friend pays = Rs. " << perPerson;
+    return 0;
+}
